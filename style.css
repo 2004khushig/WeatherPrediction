@@ -1,0 +1,119 @@
+.container{
+    padding: 30px;
+    
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Background */
+body {
+    background: linear-gradient(to bottom right, #2e2e2e, #1c1c1c);
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ff6a00;
+}
+.navbar-brand, .nav-link {
+    color: #ff6a00 !important; /* Navbar text in orange */
+}
+.nav-link:hover {
+    color: #ffe6cc !important;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* Main Header */
+h2 {
+    color: #ff6a00;
+    font-weight: 300;
+    margin-top: 20px;
+    /* text-transform: uppercase; */
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+    background: #333;
+    color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff6a00; /* Unified orange border for all cards */
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-header {
+    background-color: #ff6a00;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+/* Pricing Card Text */
+.card-body ul li {
+    font-size: 18px;
+    color: #d9d9d9;
+}
+.btn-outline-primary, .btn-primary {
+    border-radius: 20px;
+    transition: background 0.3s ease;
+    color: #ff6a00;
+    border-color: #ff6a00;
+}
+.btn-outline-primary:hover, .btn-primary:hover {
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+/* Weather Table Styling */
+.table {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.table th, .table td {
+    padding: 15px;
+    border-color: #444;
+}
+.table th {
+    background-color: #ff6a00;
+    color: #fff;
+    /* text-transform: uppercase; */
+}
+.table-responsive {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #2e2e2e;
+}
+.table-hover tbody tr:hover {
+    background-color: #3a3a3a;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+    background: #333;
+    color: #ff6a00;
+    font-size: 14px;
+}

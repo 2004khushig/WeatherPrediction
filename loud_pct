@@ -1,0 +1,10 @@
+Temp=response.temp
+Feels_like=response.feels_like
+Temp_min=response.temp_min
+Temp_max=response.temp_max
+Pressure=response.pressure
+Humidity=response.humidity
+Sea_level=response.sea_level
+Country=response.country
+Sunrise=response.sunrise
+Sunset=response.sunset
